@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление таблиц</title>
+</head>
+<body>
+<H1 ALIGN=CENTER> Coздание таблиц </Н1>
+<h1>Задание 1</h1>
+    <TABLE BORDER=1>
+        <TR>
+        <TH> Наименование </TH>
+        <TH> Описание </TH>
+        <TH> Цена </TH>
+        </TR>
+        <TR>
+        <TD> Mini Tower </TD>
+        <TD> ATX 230 Вт SM30 </TD>
+        <TD> 30 </TD>
+        </TR>
+        <TR>
+        <TD> Midi Tower </TD>
+        <TD> ATX 230 Вт GM30 </TD>
+        <TD> 33 </TD>
+        </TR>
+        <TR>
+        <TD> Midi Tower </TD>
+        <TD> ATX 300 Вт GM30 TUV </TD>
+        <TD> 33 </TD>
+        </TR>
+    </TABLE>
+<H1 ALIGN=CENTER> Объединение ячеек </Н1>
+<h1>Задание 2</h1> 
+    <TABLE BORDER=1>
+        <TR BGCOLOR=RED>
+        <TH> Наименование </TH>
+        <TH> Описание </TH>
+        <TH> Цена </TH>
+        </TR>
+        <TR>
+        <TD> Ячейка 1 </TD>
+        <TD> Ячейка 2 </TD>
+        <TD> Ячейка 3 </TD>
+        </TR>
+        <TR BGCOLOR=GREEN>
+        <TD> Ячейка 4 </TD>
+        <TD COLSPAN=2> Ячейка 5 </TD>
+        </TR>
+    </TABLE>
+<h1>Задание 3</h1>
+    <TABLE>
+        <TR>
+        <TD> Фамилия </TD>
+        <TD> Адрес </TD>
+        <TD> Телефон </TD>
+        </TR>
+        <TR>
+        <TD> Иванов </TD>
+        <TD> Ленина, 8 </TD>
+         
+        <TD> 5554473 </TD>
+        </TR>
+        <TR>
+        <TD> Петров </TD>
+        <TD> Суворова, 12 </TD>
+        <TD> 1234532 </TD>
+        </TR>
+    </TABLE>
+    <h1>Задание 3</h1>
+    <TABLE>
+        <TR>
+        <TD> Фамилия </TD>
+        <TD> Адрес </TD>
+        <TD> Телефон </TD>
+        </TR>
+        <TR>
+        <TD> Иванов </TD>
+        <TD> Ленина, 8 </TD>
+         
+        <TD> 5554473 </TD>
+        </TR>
+        <TR>
+        <TD> Петров </TD>
+        <TD> Суворова, 12 </TD>
+        <TD> 1234532 </TD>
+        </TR>
+    </TABLE>
+<h1>Задание 4</h1>
+    <table style="border: 1px solid black; text-align: center;">
+        <thead> 
+        <tr>
+            <th>Месяц</th>
+            <th>Показания счетчика</th>
+            <th>Оплата за Месяц</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td>Март</td>
+            <td>1900</td>
+            <td>20500</td>
+        </tr>
+        <tr>
+            <td>Апрель</td>
+            <td>2457</td>
+            <td>15800</td>
+        </tr>
+        <tr>
+            <td>Май</td>
+            <td>3200</td>
+            <td>30100</td>
+        </tr>
+        </tbody>
+    </table>
+    <h2>5 задание</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th style="background-color: aquamarine;">№ П.П.</th>
+                <th style="background-color: aquamarine;">Фамилия</th>
+                <th style="background-color: aquamarine;">Дата</th>
+                <th style="background-color: aquamarine;">Вес (кг)</th>
+                <th style="background-color: aquamarine;">Рост (см)</th>
+                <th style="background-color: aquamarine;">Пол</th>
+                <th style="background-color: aquamarine;">Вид спорта</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td  style="background-color:bisque">1</td>
+                <td>Иванов</td>
+                <td>2000</td>
+                <td>70</td>
+                <td>180</td>
+                <td>М</td>
+                <td>Футбол</td>
+            </tr>
+            <tr>
+                <td style="background-color:bisque">2</td>
+                <td>Петрова</td>
+                <td>1995</td>
+                <td>60</td>
+                <td>170</td>
+                <td>Ж</td>
+                <td>Теннис</td>
+            </tr>
+            <tr>
+                <td style="background-color:bisque">3</td>
+                <td>Сидоров</td>
+                <td>1998</td>
+                <td>75</td>
+                <td>185</td>
+                <td>М</td>
+                <td>Баскетбол</td>
+            </tr>
+            <tr>
+                <td style="background-color:bisque">4</td>
+                <td>Кузнецова</td>
+                <td>2001</td>
+                <td>55</td>
+                <td>165</td>
+                <td>Ж</td>
+                <td>Плавание</td>
+            </tr>
+            <tr>
+                <td style="background-color:bisque">5</td>
+                <td>Смирнов</td>
+                <td>1990</td>
+                <td>80</td>
+                <td>190</td>
+                <td>М</td>
+                <td>Легкая атлетика</td>
+            </tr>
+        </tbody>
+    </table>
+    <style>
+    table {
+        width: 600px;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid black; 
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+<h1>Задание 6</h1>
+<table>
+<thead>
+<tr style="background-color: yellow">
+    <th>Код</th>
+    <th>1</th>
+</tr>
+
+</thead>
+<tbody>
+<tr style="background-color:bisque">
+    <td>Фамилия</td>
+    <td>Иванов Иван</td>
+</tr>
+<tr style="background-color: blue">
+    <td>Фото</td>
+    <td><img src="gosling.png"></td>
+</tr>
+<tr style="background-color: rgb(28, 0, 128)">
+    <td>Дата</td>
+    <td>1988</td>
+</tr>
+<tr style="background-color:  rgb(13, 0, 128)">
+    <td>Рост</td>
+    <td>190</td>
+</tr>
+<tr style="background-color: bisque">
+    <td>Вид спорта</td>
+    <td>Баскетбол</td>
+</tr>
+</tbody>
+</table>
+<h1>Задание 7</h1>
+<h3 style="text-align: center; color: rgb(0, 2, 128); ">Заявка</h3>
+<p style="text-align: center; "> на участие________________________________________________<br>
+<i>название учебного заведения</i></p>
+<center>
+<table style="border: 1px solid black; text-align: center;">
+    <thead> 
+    <tr>
+        <th>№ П/П</th>
+        <th>ФИО</th>
+        <th>Наименование учебного заведения</th>
+        <th>Курс</th>
+        <th>Место в конкурсе</th>
+        <th>ФИО руководителя команды</th>
+    </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    </tbody>
+</table>
+<p>Директор _______ _______ <br>
+М.П <br>
+"___"_______ 20__г.</p>
+</center>
+<h1>Задание 8</h1>
+<div style="display: flex; margin-left: 35%;">
+<div style="width: 300px;">
+<h3 style="color: rgb(227, 6, 247);" >Правила поведения в кабинете</h3>
+<ol style="width: 300px;">
+<li>При входе в кабинет не толкаться в дверях, спокойно занимать рабочее место, не трогать ничего на столе</li>
+<li>В кабинете запрещается находиться в верхней одежде</li>
+<li>В кабинете запрещается находиться без преподавателя</li>
+</ol>
+</div>
+<div style="width: 300px; margin-left: 40px;">
+<h3 style="color: rgb(233, 14, 215);">В кабинете запрещено</h3>
+<ol>
+<li><i>Трогать разьемы соединительных проводов</i></li>
+<li><i>Прикасаться к проводам питания</i></li>
+<li><i>Прикасаться к экрану и задней стенке монитора</i></li>
+<li><i>Размещать принадлежности на составных блоках пк</i></li>
+</ol>
+</div>
+</div>
+<br>
+<div style="display: flex; margin-left: 35%;">
+    <div style="width: 300px;">
+    <h3 style="color: rgb(8, 114, 8);" >Обязанности учащегося<br><br><br>
+    перед началом работы на ПК</h3>
+    <ol style="width: 300px;">
+    <li>При входе в кабинет не толкаться в дверях, спокойно занимать рабочее место, не трогать ничего на столе</li>
+    <li>В кабинете запрещается находиться в верхней одежде</li>
+    <li>В кабинете запрещается находиться без преподавателя</li>
+    </ol>
+    </div>
+    <div style="width: 300px; margin-left: 60px;">
+        <img src="zd8.png" alt="девочка сидит за пк" style="margin-left: 90px;">
+    <h3 style="color: rgb(4, 121, 10);">по окончанию работы на ПК</h3>
+    <ol>
+    <li><i>Трогать разьемы соединительных проводов</i></li>
+    <li><i>Прикасаться к проводам питания</i></li>
+    <li><i>Прикасаться к экрану и задней стенке монитора</i></li>
+    <li><i>Размещать принадлежности на составных блоках пк</i></li>
+    </ol>
+    </div>
+    </div>
+</body>
+</html>
